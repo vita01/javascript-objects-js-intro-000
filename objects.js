@@ -9,6 +9,7 @@ function updatePlaylist(obg,name,song){
 }
 
 function removeFromPlaylist(obg,name){
-   if(obg.name) delete obg[name];
+  // if(obg.name) delete obg[name];
+   delete obg.name;
   return obg;
 }
