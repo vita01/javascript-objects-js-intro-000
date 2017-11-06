@@ -2,7 +2,7 @@ var playlist={
 'Frank Ocean':"Blonde",
 'Chance The Rapper':"Coloring Book",
 'ANOHNI':"Hopelessness",
-  
+
 }
 function updatePlaylist(obg,name,song){
 
