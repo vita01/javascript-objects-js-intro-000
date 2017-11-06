@@ -1,15 +1,14 @@
 var playlist={
-'Frank Ocean':"Blonde",
-'Chance The Rapper':"Coloring Book",
-'ANOHNI':"Hopelessness",
+'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes',
 
 }
 function updatePlaylist(obg,name,song){
-
+ obg[name]=song;
 //  Object.assign({},obj,name:song);
-  return obg.name=song;
+  return obg;
 }
 
 function removeFromPlaylist(obg,name){
-  return delete obg.name;
+   delete obg.name;
+  return obg;
 }
