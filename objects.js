@@ -10,7 +10,7 @@ function updatePlaylist(obg,name,song){
 
 function removeFromPlaylist(obg,name){
   // if(obg.name) delete obg[name];
- Object.assign({},obj,name);
+ Object.assign({},obg,name);
  //delete obg.name;
   return obg;
 }
