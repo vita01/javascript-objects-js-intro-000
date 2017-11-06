@@ -12,5 +12,5 @@ function removeFromPlaylist(playlist,name){
   // if(obg.name) delete obg[name];
 // Object.assign({},obg,name);
  delete playlist[name];
-  return obg;
+  return playlist;
 }
